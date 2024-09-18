@@ -22,7 +22,7 @@ body {
 }
 
 header {
-    background-color: #ff9239;
+    background-color: #2b8a13;
     color: #ffffff;
     padding: 1rem;
     text-align: start;
@@ -59,7 +59,7 @@ main {
 
 .button {
     display: inline-block;
-    background: #ff9239;
+    background: #2b8a13;
     color: #fff;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -98,5 +98,12 @@ li{
     padding: 2px;
     border: 0.5px solid #000000;
     border-radius: 5px;
-    background-color: #ff9239;
+    background-color: #2b8a13;
+    transition: background 0.3s ease;
+    
 }
+
+li:hover{
+    background: #00b3a4;
+}
+
